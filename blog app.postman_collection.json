@@ -1,0 +1,268 @@
+{
+	"info": {
+		"_postman_id": "77e4e689-c73d-4e70-8910-706cee9ea433",
+		"name": "blog app",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41694563"
+	},
+	"item": [
+		{
+			"name": "auth",
+			"item": [
+				{
+					"name": "register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "uttam",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "uttam012@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "Uttam@123",
+									"type": "text"
+								},
+								{
+									"key": "profileImage",
+									"type": "file",
+									"src": "/C:/Users/91949/OneDrive/Pictures/Screenshots/Screenshot 2025-07-14 165048.png"
+								},
+								{
+									"key": "confirmPassword",
+									"value": "Uttam@123",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/user/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"user",
+								"register"
+							]
+						},
+						"description": "Generated from cURL: curl --location 'http://localhost:5000/user/register' \\\r\n--form 'name=\"uttam\"' \\\r\n--form 'email=\"uttam012@gmail.com\"' \\\r\n--form 'password=\"Uttam@123\"' \\\r\n--form 'profileImage=@\"/C:/Users/91949/OneDrive/Pictures/Screenshots/Screenshot 2025-07-14 165048.png\"' \\\r\n--form 'confirmPassword=\"Uttam@123\"'"
+					},
+					"response": []
+				},
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"uttam0123@gmail.com\",\r\n    \"password\":\"Uttam@123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/user/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"user",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "blog",
+			"item": [
+				{
+					"name": "create",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzkzNWNlYmVjNThkODU4NGE1N2FhMCIsImVtYWlsIjoidXR0YW0wMTIzQGdtYWlsLmNvbSIsImlhdCI6MTc1Mjc3Nzg1NywiZXhwIjoxNzUyODY0MjU3fQ.bhR9L55wuzBDqyaTilvQY6aX_henZG-SEbx8usfQVho",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "title",
+									"value": "My First Blog",
+									"type": "text"
+								},
+								{
+									"key": "content",
+									"value": "This is a detailed content of my blog post.",
+									"type": "text"
+								},
+								{
+									"key": "image",
+									"type": "file",
+									"src": "/C:/Users/91949/OneDrive/Pictures/Screenshots/Screenshot 2025-07-16 114820.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/blog/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"blog",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "view all",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzkzNWNlYmVjNThkODU4NGE1N2FhMCIsImVtYWlsIjoidXR0YW0wMTIzQGdtYWlsLmNvbSIsImlhdCI6MTc1Mjc3Nzg1NywiZXhwIjoxNzUyODY0MjU3fQ.bhR9L55wuzBDqyaTilvQY6aX_henZG-SEbx8usfQVho",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/blog",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"blog"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "view by id",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "External",
+			"item": [
+				{
+					"name": "universities",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzkzNWNlYmVjNThkODU4NGE1N2FhMCIsImVtYWlsIjoidXR0YW0wMTIzQGdtYWlsLmNvbSIsImlhdCI6MTc1Mjc3Nzg1NywiZXhwIjoxNzUyODY0MjU3fQ.bhR9L55wuzBDqyaTilvQY6aX_henZG-SEbx8usfQVho",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/external/universities",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"external",
+								"universities"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "catfact",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzkzNWNlYmVjNThkODU4NGE1N2FhMCIsImVtYWlsIjoidXR0YW0wMTIzQGdtYWlsLmNvbSIsImlhdCI6MTc1Mjc3Nzg1NywiZXhwIjoxNzUyODY0MjU3fQ.bhR9L55wuzBDqyaTilvQY6aX_henZG-SEbx8usfQVho",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/external/catfact",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"external",
+								"catfact"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
