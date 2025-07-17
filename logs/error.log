@@ -1,0 +1,275 @@
+2025-07-17 23:00:42 [ERROR]: ValidationError: User validation failed: profileImage: Path `profileImage` is required.
+    at Document.invalidate (C:\BLOG APP\node_modules\mongoose\lib\document.js:3354:32)
+    at C:\BLOG APP\node_modules\mongoose\lib\document.js:3115:17
+    at C:\BLOG APP\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-17 23:00:42 [ERROR]: Error: Failed to create user
+    at createUser (file:///C:/BLOG%20APP/src/services/userService.js:11:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async register (file:///C:/BLOG%20APP/src/controllers/userController.js:28:18)
+2025-07-17 23:01:52 [ERROR]: ValidationError: User validation failed: profileImage: Path `profileImage` is required.
+    at Document.invalidate (C:\BLOG APP\node_modules\mongoose\lib\document.js:3354:32)
+    at C:\BLOG APP\node_modules\mongoose\lib\document.js:3115:17
+    at C:\BLOG APP\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-17 23:01:52 [ERROR]: Error: Failed to create user
+    at createUser (file:///C:/BLOG%20APP/src/services/userService.js:11:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async register (file:///C:/BLOG%20APP/src/controllers/userController.js:28:18)
+2025-07-17 23:03:18 [ERROR]: ValidationError: User validation failed: profileImage: Path `profileImage` is required.
+    at Document.invalidate (C:\BLOG APP\node_modules\mongoose\lib\document.js:3354:32)
+    at C:\BLOG APP\node_modules\mongoose\lib\document.js:3115:17
+    at C:\BLOG APP\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-17 23:03:18 [ERROR]: Error: Failed to create user
+    at createUser (file:///C:/BLOG%20APP/src/services/userService.js:11:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async register (file:///C:/BLOG%20APP/src/controllers/userController.js:28:18)
+2025-07-17 23:06:43 [ERROR]: ValidationError: User validation failed: profileImage: Path `profileImage` is required.
+    at Document.invalidate (C:\BLOG APP\node_modules\mongoose\lib\document.js:3354:32)
+    at C:\BLOG APP\node_modules\mongoose\lib\document.js:3115:17
+    at C:\BLOG APP\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-17 23:06:43 [ERROR]: Error: Failed to create user
+    at createUser (file:///C:/BLOG%20APP/src/services/userService.js:11:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async register (file:///C:/BLOG%20APP/src/controllers/userController.js:28:18)
+2025-07-17 23:08:45 [ERROR]: ValidationError: User validation failed: profileImage: Path `profileImage` is required.
+    at Document.invalidate (C:\BLOG APP\node_modules\mongoose\lib\document.js:3354:32)
+    at C:\BLOG APP\node_modules\mongoose\lib\document.js:3115:17
+    at C:\BLOG APP\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-17 23:08:45 [ERROR]: ReferenceError: res is not defined
+    at createUser (file:///C:/BLOG%20APP/src/services/userService.js:11:6)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async register (file:///C:/BLOG%20APP/src/controllers/userController.js:28:18)
+2025-07-17 23:09:00 [ERROR]: ValidationError: User validation failed: profileImage: Path `profileImage` is required.
+    at Document.invalidate (C:\BLOG APP\node_modules\mongoose\lib\document.js:3354:32)
+    at C:\BLOG APP\node_modules\mongoose\lib\document.js:3115:17
+    at C:\BLOG APP\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-17 23:09:00 [ERROR]: TypeError: Cannot read properties of undefined (reading 'status')
+    at createUser (file:///C:/BLOG%20APP/src/services/userService.js:11:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async register (file:///C:/BLOG%20APP/src/controllers/userController.js:28:18)
+2025-07-17 23:09:19 [ERROR]: ValidationError: User validation failed: profileImage: Path `profileImage` is required., password: Path `password` is required., email: Path `email` is required., name: Path `name` is required.
+    at Document.invalidate (C:\BLOG APP\node_modules\mongoose\lib\document.js:3354:32)
+    at C:\BLOG APP\node_modules\mongoose\lib\document.js:3115:17
+    at C:\BLOG APP\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-17 23:09:19 [ERROR]: TypeError: Cannot read properties of undefined (reading 'status')
+    at createUser (file:///C:/BLOG%20APP/src/services/userService.js:11:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async register (file:///C:/BLOG%20APP/src/controllers/userController.js:28:18)
+2025-07-17 23:09:36 [ERROR]: ValidationError: User validation failed: profileImage: Path `profileImage` is required., password: Path `password` is required., email: Path `email` is required., name: Path `name` is required.
+    at Document.invalidate (C:\BLOG APP\node_modules\mongoose\lib\document.js:3354:32)
+    at C:\BLOG APP\node_modules\mongoose\lib\document.js:3115:17
+    at C:\BLOG APP\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-17 23:09:36 [ERROR]: TypeError: Cannot read properties of undefined (reading 'status')
+    at createUser (file:///C:/BLOG%20APP/src/services/userService.js:12:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async register (file:///C:/BLOG%20APP/src/controllers/userController.js:28:18)
+2025-07-17 23:09:53 [ERROR]: ValidationError: User validation failed: profileImage: Path `profileImage` is required., password: Path `password` is required., email: Path `email` is required., name: Path `name` is required.
+    at Document.invalidate (C:\BLOG APP\node_modules\mongoose\lib\document.js:3354:32)
+    at C:\BLOG APP\node_modules\mongoose\lib\document.js:3115:17
+    at C:\BLOG APP\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-17 23:09:53 [ERROR]: TypeError: Cannot read properties of undefined (reading 'status')
+    at createUser (file:///C:/BLOG%20APP/src/services/userService.js:12:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async register (file:///C:/BLOG%20APP/src/controllers/userController.js:28:18)
+2025-07-17 23:10:03 [ERROR]: ValidationError: User validation failed: profileImage: Path `profileImage` is required., password: Path `password` is required., email: Path `email` is required., name: Path `name` is required.
+    at Document.invalidate (C:\BLOG APP\node_modules\mongoose\lib\document.js:3354:32)
+    at C:\BLOG APP\node_modules\mongoose\lib\document.js:3115:17
+    at C:\BLOG APP\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-17 23:10:03 [ERROR]: TypeError: Cannot read properties of undefined (reading 'status')
+    at createUser (file:///C:/BLOG%20APP/src/services/userService.js:12:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async register (file:///C:/BLOG%20APP/src/controllers/userController.js:28:18)
+2025-07-17 23:10:32 [ERROR]: ValidationError: User validation failed: profileImage: Path `profileImage` is required.
+    at Document.invalidate (C:\BLOG APP\node_modules\mongoose\lib\document.js:3354:32)
+    at C:\BLOG APP\node_modules\mongoose\lib\document.js:3115:17
+    at C:\BLOG APP\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-17 23:10:32 [ERROR]: Error: Failed to create user
+    at createUser (file:///C:/BLOG%20APP/src/services/userService.js:11:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async register (file:///C:/BLOG%20APP/src/controllers/userController.js:28:18)
+2025-07-17 23:10:54 [ERROR]: ValidationError: User validation failed: profileImage: Path `profileImage` is required.
+    at Document.invalidate (C:\BLOG APP\node_modules\mongoose\lib\document.js:3354:32)
+    at C:\BLOG APP\node_modules\mongoose\lib\document.js:3115:17
+    at C:\BLOG APP\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-17 23:10:54 [ERROR]: Error: ValidationError: profileImage: Path `profileImage` is required.
+    at createUser (file:///C:/BLOG%20APP/src/services/userService.js:11:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async register (file:///C:/BLOG%20APP/src/controllers/userController.js:28:18)
+2025-07-17 23:12:58 [ERROR]: ValidationError: User validation failed: profileImage: Path `profileImage` is required.
+    at Document.invalidate (C:\BLOG APP\node_modules\mongoose\lib\document.js:3354:32)
+    at C:\BLOG APP\node_modules\mongoose\lib\document.js:3115:17
+    at C:\BLOG APP\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-17 23:12:58 [ERROR]: Error: ValidationError: profileImage: Path `profileImage` is required.
+    at createUser (file:///C:/BLOG%20APP/src/services/userService.js:11:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async register (file:///C:/BLOG%20APP/src/controllers/userController.js:28:18)
+2025-07-17 23:14:10 [ERROR]: ValidationError: User validation failed: profileImage: Path `profileImage` is required.
+    at Document.invalidate (C:\BLOG APP\node_modules\mongoose\lib\document.js:3354:32)
+    at C:\BLOG APP\node_modules\mongoose\lib\document.js:3115:17
+    at C:\BLOG APP\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-17 23:14:10 [ERROR]: Error: ValidationError: profileImage: Path `profileImage` is required.
+    at createUser (file:///C:/BLOG%20APP/src/services/userService.js:11:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async register (file:///C:/BLOG%20APP/src/controllers/userController.js:29:18)
+2025-07-17 23:17:09 [ERROR]: ValidationError: User validation failed: profileImage: Path `profileImage` is required.
+    at Document.invalidate (C:\BLOG APP\node_modules\mongoose\lib\document.js:3354:32)
+    at C:\BLOG APP\node_modules\mongoose\lib\document.js:3115:17
+    at C:\BLOG APP\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-17 23:17:09 [ERROR]: Error: ValidationError: profileImage: Path `profileImage` is required.
+    at createUser (file:///C:/BLOG%20APP/src/services/userService.js:11:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async register (file:///C:/BLOG%20APP/src/controllers/userController.js:29:18)
+2025-07-17 23:17:30 [ERROR]: ValidationError: User validation failed: profileImage: Path `profileImage` is required.
+    at Document.invalidate (C:\BLOG APP\node_modules\mongoose\lib\document.js:3354:32)
+    at C:\BLOG APP\node_modules\mongoose\lib\document.js:3115:17
+    at C:\BLOG APP\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-17 23:17:30 [ERROR]: Error: ValidationError: profileImage: Path `profileImage` is required.
+    at createUser (file:///C:/BLOG%20APP/src/services/userService.js:11:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async register (file:///C:/BLOG%20APP/src/controllers/userController.js:29:18)
+2025-07-17 23:17:43 [ERROR]: ValidationError: User validation failed: profileImage: Path `profileImage` is required.
+    at Document.invalidate (C:\BLOG APP\node_modules\mongoose\lib\document.js:3354:32)
+    at C:\BLOG APP\node_modules\mongoose\lib\document.js:3115:17
+    at C:\BLOG APP\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-07-17 23:17:43 [ERROR]: Error: ValidationError: profileImage: Path `profileImage` is required.
+    at createUser (file:///C:/BLOG%20APP/src/services/userService.js:11:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async register (file:///C:/BLOG%20APP/src/controllers/userController.js:29:18)
+2025-07-18 00:09:35 [ERROR]: TypeError: Cannot read properties of undefined (reading 'id')
+    at createBlogController (file:///C:/BLOG%20APP/src/controllers/blogController.js:11:69)
+    at Layer.handleRequest (C:\BLOG APP\node_modules\router\lib\layer.js:152:17)
+    at next (C:\BLOG APP\node_modules\router\lib\route.js:157:13)
+    at multerMiddleware (C:\BLOG APP\node_modules\multer\lib\make-middleware.js:19:41)
+    at Layer.handleRequest (C:\BLOG APP\node_modules\router\lib\layer.js:152:17)
+    at next (C:\BLOG APP\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\BLOG APP\node_modules\router\lib\route.js:117:3)
+    at handle (C:\BLOG APP\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\BLOG APP\node_modules\router\lib\layer.js:152:17)
+    at C:\BLOG APP\node_modules\router\index.js:295:15
+2025-07-18 00:10:13 [ERROR]: TypeError: Cannot read properties of undefined (reading 'id')
+    at createBlogController (file:///C:/BLOG%20APP/src/controllers/blogController.js:11:69)
+    at Layer.handleRequest (C:\BLOG APP\node_modules\router\lib\layer.js:152:17)
+    at next (C:\BLOG APP\node_modules\router\lib\route.js:157:13)
+    at multerMiddleware (C:\BLOG APP\node_modules\multer\lib\make-middleware.js:19:41)
+    at Layer.handleRequest (C:\BLOG APP\node_modules\router\lib\layer.js:152:17)
+    at next (C:\BLOG APP\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\BLOG APP\node_modules\router\lib\route.js:117:3)
+    at handle (C:\BLOG APP\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\BLOG APP\node_modules\router\lib\layer.js:152:17)
+    at C:\BLOG APP\node_modules\router\index.js:295:15
+2025-07-18 00:12:57 [ERROR]: Authorization header is missing.
+2025-07-18 00:12:57 [ERROR]: Token is not valid.
+2025-07-18 00:13:25 [ERROR]: Authorization header is missing.
+2025-07-18 00:13:25 [ERROR]: Token is not valid.
+2025-07-18 00:13:53 [ERROR]: Token is not valid.
+2025-07-18 00:14:35 [ERROR]: Token is not valid.
+2025-07-18 00:15:12 [ERROR]: ReferenceError: jwt is not defined
+    at authenticate (file:///C:/BLOG%20APP/src/middlewares/auth.js:18:21)
+    at Layer.handleRequest (C:\BLOG APP\node_modules\router\lib\layer.js:152:17)
+    at next (C:\BLOG APP\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\BLOG APP\node_modules\router\lib\route.js:117:3)
+    at handle (C:\BLOG APP\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\BLOG APP\node_modules\router\lib\layer.js:152:17)
+    at C:\BLOG APP\node_modules\router\index.js:295:15
+    at processParams (C:\BLOG APP\node_modules\router\index.js:582:12)
+    at next (C:\BLOG APP\node_modules\router\index.js:291:5)
+    at Function.handle (C:\BLOG APP\node_modules\router\index.js:186:3)
+2025-07-18 00:39:47 [ERROR]: Authorization header is missing.
+2025-07-18 00:39:47 [ERROR]: JsonWebTokenError: jwt must be provided
+    at module.exports [as verify] (C:\BLOG APP\node_modules\jsonwebtoken\verify.js:60:17)
+    at authenticate (file:///C:/BLOG%20APP/src/middlewares/auth.js:19:25)
+    at Layer.handleRequest (C:\BLOG APP\node_modules\router\lib\layer.js:152:17)
+    at next (C:\BLOG APP\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\BLOG APP\node_modules\router\lib\route.js:117:3)
+    at handle (C:\BLOG APP\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\BLOG APP\node_modules\router\lib\layer.js:152:17)
+    at C:\BLOG APP\node_modules\router\index.js:295:15
+    at processParams (C:\BLOG APP\node_modules\router\index.js:582:12)
+    at next (C:\BLOG APP\node_modules\router\index.js:291:5)
+2025-07-18 00:57:21 [ERROR]: Authorization header is missing.
+2025-07-18 00:57:22 [ERROR]: JsonWebTokenError: jwt must be provided
+    at module.exports [as verify] (C:\BLOG APP\node_modules\jsonwebtoken\verify.js:60:17)
+    at authenticate (file:///C:/BLOG%20APP/src/middlewares/auth.js:19:25)
+    at Layer.handleRequest (C:\BLOG APP\node_modules\router\lib\layer.js:152:17)
+    at next (C:\BLOG APP\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\BLOG APP\node_modules\router\lib\route.js:117:3)
+    at handle (C:\BLOG APP\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\BLOG APP\node_modules\router\lib\layer.js:152:17)
+    at C:\BLOG APP\node_modules\router\index.js:295:15
+    at param (C:\BLOG APP\node_modules\router\index.js:600:14)
+    at param (C:\BLOG APP\node_modules\router\index.js:610:14)
+2025-07-18 01:09:51 [ERROR]: Authorization header is missing.
+2025-07-18 01:09:51 [ERROR]: JsonWebTokenError: jwt must be provided
+    at module.exports [as verify] (C:\BLOG APP\node_modules\jsonwebtoken\verify.js:60:17)
+    at authenticate (file:///C:/BLOG%20APP/src/middlewares/auth.js:19:25)
+    at Layer.handleRequest (C:\BLOG APP\node_modules\router\lib\layer.js:152:17)
+    at next (C:\BLOG APP\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\BLOG APP\node_modules\router\lib\route.js:117:3)
+    at handle (C:\BLOG APP\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\BLOG APP\node_modules\router\lib\layer.js:152:17)
+    at C:\BLOG APP\node_modules\router\index.js:295:15
+    at param (C:\BLOG APP\node_modules\router\index.js:600:14)
+    at param (C:\BLOG APP\node_modules\router\index.js:610:14)
+2025-07-18 01:09:59 [ERROR]: TypeError: Cannot destructure property 'title' of 'req.body' as it is undefined.
+    at updateBlogController (file:///C:/BLOG%20APP/src/controllers/blogController.js:79:13)
+    at Layer.handleRequest (C:\BLOG APP\node_modules\router\lib\layer.js:152:17)
+    at next (C:\BLOG APP\node_modules\router\lib\route.js:157:13)
+    at authenticate (file:///C:/BLOG%20APP/src/middlewares/auth.js:21:5)
+    at Layer.handleRequest (C:\BLOG APP\node_modules\router\lib\layer.js:152:17)
+    at next (C:\BLOG APP\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\BLOG APP\node_modules\router\lib\route.js:117:3)
+    at handle (C:\BLOG APP\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\BLOG APP\node_modules\router\lib\layer.js:152:17)
+    at C:\BLOG APP\node_modules\router\index.js:295:15
+2025-07-18 01:17:04 [ERROR]: Authorization header is missing.
+2025-07-18 01:17:04 [ERROR]: JsonWebTokenError: jwt must be provided
+    at module.exports [as verify] (C:\BLOG APP\node_modules\jsonwebtoken\verify.js:60:17)
+    at authenticate (file:///C:/BLOG%20APP/src/middlewares/auth.js:19:25)
+    at Layer.handleRequest (C:\BLOG APP\node_modules\router\lib\layer.js:152:17)
+    at next (C:\BLOG APP\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\BLOG APP\node_modules\router\lib\route.js:117:3)
+    at handle (C:\BLOG APP\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\BLOG APP\node_modules\router\lib\layer.js:152:17)
+    at C:\BLOG APP\node_modules\router\index.js:295:15
+    at param (C:\BLOG APP\node_modules\router\index.js:600:14)
+    at param (C:\BLOG APP\node_modules\router\index.js:610:14)
+2025-07-18 01:33:18 [ERROR]: ReferenceError: deleted is not defined
+    at file:///C:/BLOG%20APP/src/cron/blogCron.js:8:34
+    at Runner.onMatch (C:\BLOG APP\node_modules\node-cron\dist\esm\tasks\inline-scheduled-task.js:69:20)
+    at Timeout._onTimeout (C:\BLOG APP\node_modules\node-cron\dist\esm\scheduler\runner.js:70:55)
+    at listOnTimeout (node:internal/timers:614:17)
+    at process.processTimers (node:internal/timers:549:7)
+2025-07-18 01:33:20 [ERROR]: ReferenceError: deleted is not defined
+    at file:///C:/BLOG%20APP/src/cron/blogCron.js:8:34
+    at Runner.onMatch (C:\BLOG APP\node_modules\node-cron\dist\esm\tasks\inline-scheduled-task.js:69:20)
+    at Timeout._onTimeout (C:\BLOG APP\node_modules\node-cron\dist\esm\scheduler\runner.js:70:55)
+    at listOnTimeout (node:internal/timers:614:17)
+    at process.processTimers (node:internal/timers:549:7)
+2025-07-18 01:33:22 [ERROR]: ReferenceError: deleted is not defined
+    at file:///C:/BLOG%20APP/src/cron/blogCron.js:8:34
+    at Runner.onMatch (C:\BLOG APP\node_modules\node-cron\dist\esm\tasks\inline-scheduled-task.js:69:20)
+    at Timeout._onTimeout (C:\BLOG APP\node_modules\node-cron\dist\esm\scheduler\runner.js:70:55)
+    at listOnTimeout (node:internal/timers:614:17)
+    at process.processTimers (node:internal/timers:549:7)
+2025-07-18 01:33:24 [ERROR]: ReferenceError: deleted is not defined
+    at file:///C:/BLOG%20APP/src/cron/blogCron.js:8:34
+    at Runner.onMatch (C:\BLOG APP\node_modules\node-cron\dist\esm\tasks\inline-scheduled-task.js:69:20)
+    at Timeout._onTimeout (C:\BLOG APP\node_modules\node-cron\dist\esm\scheduler\runner.js:70:55)
+    at listOnTimeout (node:internal/timers:614:17)
+    at process.processTimers (node:internal/timers:549:7)
