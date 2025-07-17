@@ -1,20 +1,30 @@
 import { StatusCodes } from "http-status-codes";
 import logger from "../utils/logger.js";
 import { Message } from "../utils/message.js";
-import { createBlog, deleteBlog, getBlog, getBlogById, updateBlog } from "../services/blogService.js";
-import { body } from "express-validator";
+import {
+  createBlog,
+  deleteBlog,
+  getBlog,
+  getBlogById,
+  updateBlog,
+} from "../services/blogService.js";
 
 export const createBlogController = async (req, res) => {
   try {
     const image = req.file?.path;
     const { title, content } = req.body;
 
-    const blog = await createBlog({title, content, author: req.user.id, image});
+    const blog = await createBlog({
+      title,
+      content,
+      author: req.user.id,
+      image,
+    });
 
     logger.info(`Blog created: ${blog._id}`);
     return res.status(StatusCodes.CREATED).json({
       success: true,
-      message: 'Blog created successfully',
+      message: "Blog created successfully",
       data: blog,
     });
   } catch (error) {
@@ -27,8 +37,8 @@ export const createBlogController = async (req, res) => {
   }
 };
 
-export const getBlogController = async (req,res) =>{
-try {
+export const getBlogController = async (req, res) => {
+  try {
     const blog = await getBlog();
     logger.info(`All blog ${Message.FETCH_SUCCESSFULLY}`);
     return res.status(StatusCodes.CREATED).json({
@@ -36,14 +46,15 @@ try {
       message: `All blog ${Message.FETCH_SUCCESSFULLY}`,
       data: blog,
     });
-} catch (error) {
-     logger.error(`${Message.FAILED_TO} create blog.`, error);
+  } catch (error) {
+    logger.error(`${Message.FAILED_TO} create blog.`, error);
     return res.status(StatusCodes.INTERNAL_SERVER_ERROR).json({
       success: false,
       message: `${Message.FAILED_TO} create blog.`,
       error: error.message || error,
     });
-}}
+  }
+};
 
 export const getBlogByIdController = async (req, res) => {
   try {
@@ -78,7 +89,9 @@ export const updateBlogController = async (req, res) => {
     const image = req.file?.path;
     const { title, content } = req.body;
     const updateData = {
-        image,title, content
+      image,
+      title,
+      content,
     };
 
     const updatedBlog = await updateBlog(id, updateData);
@@ -112,7 +125,9 @@ export const deleteBlogController = async (req, res) => {
     const blog = await deleteBlog(req.params.id);
 
     if (!blog) {
-      logger.warn(`Blog ${Message.NOT_FOUND} for deletion. ID: ${req.params.id}`);
+      logger.warn(
+        `Blog ${Message.NOT_FOUND} for deletion. ID: ${req.params.id}`
+      );
       return res.status(StatusCodes.NOT_FOUND).json({
         success: false,
         message: `Blog ${Message.NOT_FOUND}`,

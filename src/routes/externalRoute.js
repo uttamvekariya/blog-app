@@ -1,4 +1,3 @@
-// src/routes/externalRoutes.js
 import express from 'express';
 import { getUniversities, getCatFact } from '../controllers/externalController.js';
 
