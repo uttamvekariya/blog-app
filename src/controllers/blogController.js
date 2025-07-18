@@ -125,9 +125,7 @@ export const deleteBlogController = async (req, res) => {
     const blog = await deleteBlog(req.params.id);
 
     if (!blog) {
-      logger.warn(
-        `Blog ${Message.NOT_FOUND} for deletion. ID: ${req.params.id}`
-      );
+      logger.warn(`Blog ${Message.NOT_FOUND} for deletion. ID: ${req.params.id}`);
       return res.status(StatusCodes.NOT_FOUND).json({
         success: false,
         message: `Blog ${Message.NOT_FOUND}`,
